@@ -1,6 +1,11 @@
 # Takeaway API
 Steps to configure and run Takeaway API
 
+## Install libraries
+```sh
+$~/takeawayAPI composer install
+```
+
 ## Configure Database
 First, configure the user and password database to generate data. Open file .env and put user, password and name of database in DATABASE_URL. For instance:
 
